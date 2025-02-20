@@ -22,6 +22,7 @@ The problem with this project is that I attempted to do everything in a single n
 I keep this project as a reminder that there are **no shortcuts**
 
 #### Explore Project 1: [01_Failure_Poission_NB2_Bike_NYC_BOTH](./01_Failure_Poission_NB2_Bike_NYC_BOTH.ipynb)
+https://github.com/andrewcollodel/Lessons-learnt/blob/main/01_Failure_Poission_NB2_Bike_NYC%20-%20BOTH.ipynb
 ___
 
 # Project 2: Startup Success - Unbalanced response variable (Failed project)
