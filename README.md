@@ -1,9 +1,9 @@
 # Lessons Learnt
 ___
 ## Introduction
-In this repository you will find several projects that did not produce the expected results. This is where I learnt valuable lessons on “doing” data science. This is where I tried to understand how various types of regression worked or did not work. They are all failures,  but I keep them as a reminder of what went wrong and why. Some projects shown here are sometimes incomplete as I realised it was not going to work
+In this repository are projects that did not yield the anticipated results. These projects provided invaluable lessons in the practical application of data science. Through these endeavors, I sought to comprehend the functionality and limitations of various models. Although these projects were unsuccessful, I retain them as reminders of the errors and their underlying causes. Some projects may appear incomplete, as I discontinued them upon realizing the models were ineffective.
 
-In this repository I also keep templates which are based on sound lessons that I found on the Internet. Most times I followed the lesson sometimes using a different dataset other times same dataset. I used these examples to learn how to do a particular project correctly and understand the process. These templates are always referenced with the source website.
+Additionally, I maintain templates derived from reliable lessons found online. Often, I adapted these lessons to align with my approach, occasionally utilizing different datasets. These examples facilitated my understanding of how to execute specific projects correctly and grasp the underlying processes. All templates are duly referenced with their source websites.
 ___
 
 # Project 1: Poisson NB2 Bike NYC – BOTH
@@ -30,7 +30,7 @@ ___
 Notebook: 02_Failure_StartUp_Success_Unbalanced_Failure
 ___
 #### About the project
-The purpose of this project is to predict if a new startup business will succeed. The predictors are 'Total_Funding', 'funding_rounds', 'months_2_first_fund' and 'Unfunded'. The response is Succeed or Fail.
+The objective of this project is to predict the success of a new startup business. The predictors include 'Total_Funding', 'funding_rounds', 'months_2_first_fund', and 'Unfunded'. The response variable is binary, indicating either Success or Failure.
 
 ### Data Source
 Business Start up dataset source information
@@ -40,9 +40,9 @@ URL: https://www.kaggle.com/datasets/ankurzing/success-of-startup
 The dataset cleaned and processed dataset contains 66,057 records and 5 fields
 
 #### Project outcome: failure but a lesson well learnt.
-The project was a failure because I ignored the imbalanced in the Success/failure ration in the response variable. I will complete the project but this time working from the source cited below to resolve the problem
+The initial attempt at this project was unsuccessful due to the oversight of the imbalance in the Success/Failure ratio within the response variable. I intend to revisit and complete the project, addressing this issue by following the correct methodology.
 
-The Success response variable is imbalanced (90% sucess and 10% failure) but it is important to preserve that imbalance as it informs the model of the likelihood of a startup succeeding or failing.
+The Success response variable is imbalanced, with 90% indicating success and 10% indicating failure. It is crucial to maintain this imbalance as it provides the model with essential information regarding the likelihood of a startup succeeding or failing but the response variable must be correctly weighted something I neglected to do.
 Source: https://medium.com/towards-data-science/weighted-logistic-regression-for-imbalanced-dataset-9a5cd88e68b
 
 #### Model Results
