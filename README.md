@@ -57,7 +57,8 @@ Source: https://medium.com/towards-data-science/weighted-logistic-regression-for
 This is a useless result as it is not predicting failure because the response variable is unbalanced, and this was not weighted in the modelling.    
 A valuable lesson that was well learnt.   
 
-#### Explore Project 2: [02_Failure_StartUp_Success_Unbalanced_Failure](./02_Failure_StartUp_Success_Unbalanced_Failure.ipynb)
+#### Explore Project 2:
+[Link to Project 2 Notebook](https://github.com/andrewcollodel/Lessons-learnt/blob/main/02_Failure_StartUp_Success_Unbalanced_Failure.ipynb)
 ___
 # Project 3: Vehicle Linear Regression (Failed)
 ___
@@ -74,7 +75,8 @@ At the extremes this linear model does not work because that there is NOT a line
 The model must be built using a different technique or be adjusted to account for the curvature in the relationship between fuel consumption and Co2 emissions.   
 Refer to Project 4 titled 'Vehicle Polynomial Regression Attempt 2 Improved,' which features an enhanced model utilizing a different algorithm, specifically Polynomial Regression.   
 
-#### Explore Project 3: [03_Failure_Vehicle_Linear_Regression_Failed](./03_Failure_Vehicle_Linear_Regression_Failed.ipynb)
+#### Explore Project 3:
+[Link to Project 3 Notebook](https://github.com/andrewcollodel/Lessons-learnt/blob/main/03_Failure_Vehicle_Linear_Regression_Failed.ipynb)
 ____
 
 # Project 4: Vehicle Polynomial Regression Attempt 2 Improved
@@ -95,7 +97,8 @@ R-squared: 0.96 (96%)
   
 The model has improved but may lack sufficient predictor variables.
 
-#### Explore Project 4: [04_Failure_Vehicle_Polynomial_Regression_Attempt_2_Improved](./04_Failure_Vehicle_Polynomial_Regression_Attempt_2_Improved.ipynb)
+#### Explore Project 4:
+[Link to Project 4 Notebook](https://github.com/andrewcollodel/Lessons-learnt/blob/main/04_Failure_Vehicle_Polynomial_Regression_Attempt_2_Improved.ipynb)
 ____
 # Project 5: k-means clustering (Template)
 ___
@@ -113,7 +116,8 @@ Use k-means clustering to segment retail card customers based on their income an
 **Cluster 3:** youngest (more women) who earn the least and are second highest spenders.  
 **Cluster 4:** oldest (mostly women), who are in the middle in terms of earning and spending habits.  
 
-#### Explore Project 5: [Template_01_k-means clustering](./Template_01_k-means_clustering.ipynb)
+#### Explore Project 5:
+[Link to Project 5 Notebook](https://github.com/andrewcollodel/Lessons-learnt/blob/main/Template_01_k-means%20clustering.ipynb)
 ___
 # Project 6: Vehicles Power OLS Engine Displacement (Template)
 ___
@@ -130,5 +134,6 @@ The 5-cylinder engine is the only exception which appears to be less significant
 The 16 cylinder engine with their estimated mean emissions of 869.3888 is nearly double the emissions of a 2 cylinder engine.  
 From the analysis above it is clear that engine CO2 emissions do not change by a constant amount with each unit change in the number of cylinders. This vindicates the initial decision not to represent the number of cylinders as a simple integer-valued variable.
 
-#### Explore Project 6: [Template_02_Vehicles_Power_OLS_EngineDisplacement](./Template_02_Vehicles_Power_OLS_EngineDisplacement.ipynb)
+#### Explore Project 6:
+[Link to Project 6 Notebook](https://github.com/andrewcollodel/Lessons-learnt/blob/main/Template_02_Vehicles_Power_OLS_EngineDisplacement.ipynb)
 ___
