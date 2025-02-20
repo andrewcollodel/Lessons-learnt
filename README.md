@@ -110,7 +110,7 @@ Use k-means clustering to segment retail card customers based on their income an
 **Cluster 1:** slightly younger than cluster 0, slightly more men, earn the most and spend the least.  
 **Cluster 2:** younger but not the youngest,slightly more women who earn well (2nd highest earners) and spend the most.  
 **Cluster 3:** youngest (more women) who earn the least and are second highest spenders.  
-**luster 4:** oldest (mostly women), who are in the middle in terms of earning and spending habits.  
+**Cluster 4:** oldest (mostly women), who are in the middle in terms of earning and spending habits.  
 
 #### Explore Project 5: [Template_01_k-means clustering](./Template_01_k-means_clustering.ipynb)
 ___
